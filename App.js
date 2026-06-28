@@ -1,13 +1,14 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { StatusBar } from 'expo-status-bar';
 import BottomTabs from './src/navigation/BottomTabs';
+import { ThemeProvider } from './src/theme/ThemeContext';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <StatusBar style="auto" />
-      <BottomTabs />
-    </NavigationContainer>
+    <ThemeProvider>
+      <NavigationContainer>
+        <BottomTabs />
+      </NavigationContainer>
+    </ThemeProvider>
   );
 }

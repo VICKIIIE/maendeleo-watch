@@ -1,50 +1,177 @@
-# Welcome to your Expo app 👋
+# Maendeleo Watch
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+Maendeleo Watch is a mobile application developed using React Native and Expo. The platform is designed to promote transparency, accountability, and citizen engagement by providing a digital space where users can monitor, track, and report development projects within their communities.
 
-1. Install dependencies
+The project aims to bridge the information gap between citizens, local authorities, and development stakeholders by making project information more accessible and easier to monitor.
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Problem Statement
 
-   ```bash
-   npx expo start
-   ```
+Many development projects are initiated within communities, but citizens often lack access to timely information regarding project status, budget allocation, implementation progress, and accountability mechanisms.
 
-In the output, you'll find options to open the app in a
+Maendeleo Watch seeks to address this challenge by providing a centralized platform where project information can be tracked and monitored in real time.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Objectives
 
-## Get a fresh project
+### Main Objective
 
-When you're ready, run:
+To develop a mobile application that enables citizens to monitor development projects and enhance accountability in public project implementation.
 
-```bash
-npm run reset-project
+### Specific Objectives
+
+* Provide information about ongoing development projects.
+* Allow users to track project progress.
+* Improve transparency and public participation.
+* Create a platform for community feedback and reporting.
+* Enhance accountability among project stakeholders.
+
+---
+
+## Features
+
+### Current Features
+
+* Project setup using React Native and Expo
+* Mobile-first user interface
+* Navigation structure
+* Reusable component architecture
+
+### Planned Features
+
+* User authentication
+* Project listing and details
+* Project progress tracking
+* Location-based project discovery
+* Community reporting and feedback
+* Notifications and updates
+* Administrative dashboard
+* Analytics and reporting
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React Native
+* Expo
+* JavaScript
+* React Navigation
+
+### Development Tools
+
+* VS Code
+* Git
+* GitHub
+
+### Future Integrations
+
+* Firebase Authentication
+* Cloud Database
+* Maps and Geolocation Services
+* Push Notifications
+
+---
+
+## Project Structure
+
+```text
+src/
+├── components/
+├── screens/
+├── navigation/
+├── assets/
+├── services/
+└── utils/
+
+App.js
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## Installation
 
-To learn more about developing your project with Expo, look at the following resources:
+### Prerequisites
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+* Node.js
+* npm
+* Expo CLI
+* Git
 
-## Join the community
+### Clone the Repository
 
-Join our community of developers creating universal apps.
+```bash
+git clone https://github.com/VICKIIIE/maendeleo-watch.git
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Navigate into the Project
+
+```bash
+cd maendeleo-watch
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start the Development Server
+
+```bash
+npx expo start
+```
+
+---
+
+## Development Progress
+
+### Phase 1: Project Initialization
+
+* [x] Repository creation
+* [x] GitHub integration
+* [x] React Native setup
+* [x] Project structure design
+
+### Phase 2: Core Development
+
+* [ ] Authentication system
+* [ ] Home screen implementation
+* [ ] Project management module
+* [ ] User profile module
+
+### Phase 3: Advanced Features
+
+* [ ] Notifications
+* [ ] Analytics
+* [ ] Reporting tools
+* [ ] Deployment preparation
+
+---
+
+## Screenshots
+
+Screenshots will be added as development progresses.
+
+---
+
+## Author
+
+**Victor**
+
+Software Engineering Student
+
+GitHub: https://github.com/VICKIIIE
+
+---
+
+## Project Status
+
+🚧 Under Active Development
+
+This repository is regularly updated to document the development progress of the Maendeleo Watch mobile application.
